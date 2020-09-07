@@ -1,0 +1,40 @@
+#Example 1:
+    1(place) (0,5,NORTH)
+    2(move)
+    2(move)
+    5(report)
+
+    Result: Current state is: (0,5,NORTH)
+
+#Example 2:
+    1(place) (5,0,WEST)
+    2(move)
+    2(move)
+    5(report)
+
+    Result: Current state is: (5,0,WEST)   
+
+Example 3:
+    1(place) (2,3,SOUTH)
+    2(move)
+    2(move)
+    5(report)
+
+    Result: Current state is: (2,1,SOUTH)   
+    
+#Example 4:
+    1(place) (1,2,WEST)
+    3(left)
+    3(left)
+    3(left)
+    5(report)
+
+    Result: Current state is: (1,2,SOUTH)
+
+#Example 5:
+    1(place) (1,2,EAST)
+    4(right)
+    4(right)
+    5(report)
+
+    Result: Current state is: (1,2,EAST)
